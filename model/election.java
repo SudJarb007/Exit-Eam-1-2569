@@ -25,7 +25,7 @@ public class election
     {
         return ranking_points;
     }
-    public int duplicatePatternThreshold()
+    public int getDuplicatePatternThreshold()
     {
         return duplicatePatternThreshold;
     }

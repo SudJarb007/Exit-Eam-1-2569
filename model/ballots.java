@@ -9,10 +9,10 @@ public class ballots
     private String[] ranking;
     private String status; // อันนี้จะทำเป็น รอเช้ค, รับรองแล้ว, ไม่นับ
     
-    public voters(String id, voters voter_id,String[] ranking, String status)
+    public ballots(String id, voters voter_id,String[] ranking)
     {
         this.id = id;
-        this.voter_id = name;
+        this.voter_id = voter_id;
         this.ranking = ranking;
         this.status = "บันทึกเรียบร้อย";
     }
@@ -22,9 +22,9 @@ public class ballots
     }
     public voters getVoter()
     {
-        return voter;
+        return voter_id;
     }
-    public String[] ranking()
+    public String[] getRanking()
     {
         return ranking;
     }

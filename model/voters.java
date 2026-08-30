@@ -21,13 +21,17 @@ public class voters
     {
         return name;
     }
-    public boolean Isactive()
+    public boolean IsActive()
     {
         return active;
     }
     public void setHasVoted(boolean hasVoted)
     {
         this.hasVoted = hasVoted;
+    }
+    public boolean hasVoted()
+    {
+        return hasVoted;
     }
     
 }

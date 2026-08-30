@@ -1,5 +1,7 @@
 package model;
 
+import java.util.*;
+
 public class pattern
 {
     private String[] patternResult;
@@ -9,7 +11,7 @@ public class pattern
     public pattern(String[] patternResult)
     {
         this.patternResult = patternResult;
-        this.status = "รอเช็ค";
+        this.status = "รอตรวจ";
     }
     public String[] getPatternResult()
     {
@@ -23,7 +25,7 @@ public class pattern
     {
         this.status = status;
     }
-    public Sting getStatus()
+    public String getStatus()
     {
         return status;
     }
